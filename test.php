@@ -9,7 +9,7 @@ function fopen_url($url, $timeout = '20') {
         curl_setopt($ch, CURLOPT_USERAGENT, $user_agent);
         curl_setopt($ch, CURLOPT_HEADER, 0);
         curl_setopt($ch, CURLOPT_NOBODY, 0);
-        // curl_setopt($ch,CURLOPT_FOLLOWLOCATION,1); 
+        curl_setopt($ch,CURLOPT_FOLLOWLOCATION,1); 
         curl_setopt($ch, CURLOPT_FAILONERROR, 1);
         $html = curl_exec($ch);
         curl_close($ch);
