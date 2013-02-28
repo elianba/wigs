@@ -1,0 +1,126 @@
+.will{background: url("../images/topad.png") repeat-y scroll right top;}
+.wrap,#menu ul,.container{width: 1000px; margin: 0 auto}
+#header{height: 122px; border-bottom:1px solid #fe739b}
+.header{background: url('../images/free-shipping.gif') right center no-repeat}
+#menu{border-top:1px solid #fe7ea3; border-bottom: 1px solid #fe739b;height:39px;background: #fe5476}
+#menu a{color: #fff}
+#menu ul li{float: left; list-style: none;margin: 0px 5px 0px 5px; padding:0 25px}
+#menu ul li a{text-decoration: none;color: #FFF;font-weight: bold;line-height: 39px;font-size: 13px;word-spacing:-0.5em}
+#top-search{background: url('../images/top-search-wrap.gif') left top no-repeat;height: 36px; line-height: 36px;font-size: 10px; overflow: hidden}
+.cinput,.kinput{height: 16px;border:1px solid #cccccc;padding: 2px;vertical-align:middle;}
+.cinput{width: 58px;margin: 0px 3px;}
+.kinput{width: 144px; margin-left: 120px; margin-right: 5px;}
+#inputsubm{vertical-align:middle;}
+#top-search form{float: left;margin-right: 20px;}
+#top-search a{color: #666666}
+#top-category{background: url('../images/top-category-wrap.gif') left top no-repeat;height: 133px; margin: 10px auto 5px}
+#top-category ul{padding-top: 4px; font-size: 10px; }
+#top-category ul li{width: 88px; float: left; margin: 0px 6px}
+#top-category ul li a{display: block}
+#top-category ul li p{text-align: center;}
+.container{position: relative;height: 85px; margin-bottom: 5px;}
+#slides {
+    background: url('../images/slides-wrap.gif') left center no-repeat;width:1000px; height: 77px; 
+    position:absolute;
+    top:5px;
+    z-index:100;
+}
+.slides_container {
+	width:940px;
+        margin: 0 auto;
+        margin-top: 8px;
+	overflow:hidden;
+	position:relative;
+	display:none;
+}
+.slides_container div.slide {
+	width:940px;
+	height:77px;
+	display:block;
+}
+#slides .next,#slides .prev {
+	position:absolute;
+	top:8px;
+	left:4px;
+	width:18px;
+	height:60px;
+	display:block;
+	z-index:101;
+}
+#slides .next {left:976px;}
+
+#sidebar{width: 190px;float: left}
+#sidebar img{vertical-align: bottom;}
+#container{width: 790px;float: right}
+
+#today-point{background: url('../images/sidebar-point.gif') left top no-repeat; font-size: 14px; font-weight: bold; height: 45px; text-align: center; line-height: 45px; padding-top: 40px;}
+#today-point strong{color: #f00030;font-size: 24px;}
+.fav{margin: 10px 0px}
+#sidebar-category{background: url('../images/sidebar-category-header.gif') left top no-repeat;padding-top: 40px;}
+#sidebar-category ul,#sidebar-shop ul{border: 1px solid #c4c4c4;border-top:none;padding-bottom: 5px;}
+#sidebar-category ul li ul{border: none;margin: 0px 10px 5px;}
+#sidebar-category ul li ul li{border-bottom: 1px dotted #cecece;font-size: 12px; padding-left: 10px; height: 26px;line-height: 26px;}
+#best-sell{background: url('../images/best-sell.gif') left top no-repeat;padding-top: 36px;margin: 10px 0px;}
+#best-sell ul{border: 1px solid #c4c4c4;border-top:none;font-size: 11px;color: #ccc;}
+#best-sell ul li{padding: 8px 8px;border-bottom: 1px dotted #ccc;margin: 0px 4px 4px;}
+#best-sell ul li p{text-align: center;margin: 4px 0px}
+#best-sell ul li h3{font-weight: lighter;height: 53px;background-position:left 5px;background-repeat: no-repeat; padding-left: 48px;}
+#rank1{background: url('../images/best-sell-rank-1.gif');}
+#rank2{background: url('../images/best-sell-rank-2.gif');}
+#rank3{background: url('../images/best-sell-rank-3.gif');}
+#rank4{background: url('../images/best-sell-rank-4.gif');}
+#rank5{background: url('../images/best-sell-rank-5.gif');}
+#sidebar-shop{background: url('../images/sidebar-shop-info.gif') left top no-repeat;padding-top: 36px;font-size: 12px;}
+#sidebar-shop ul li{padding: 5px 0px}
+#sidebar-shop ul li span{display: block;background: #ffa9ba; color: #000; text-indent: 8px;height: 24px;line-height: 24px;font-weight: bold}
+#sidebar-shop ul li p{padding: 5px;color: #333333}
+
+#recommend-index{margin: 10px 0px}
+#recommend-index li img{vertical-align: bottom}
+#recommend-index li{float: left;margin: 0px 4px 0px 6px;border: 1px solid #fe5476;padding: 1px}
+#recommend-index li.first{margin-left: 0px}
+#recommend-index li.last{margin-right: 0px}
+
+
+.index-box h3{height: 47px;background-repeat: no-repeat;background-position: center center;margin: 10px 0px}
+.index-box h3 a{display: block;height: 42px;width: 70px;float: right;margin-top: 5px}
+#index-new h3{background: url('../images/index-new.gif');}
+#index-hot h3{background: url('../images/index-hot.gif');}
+#index-re h3{background: url('../images/index-re.gif');}
+#index-pick-up h3{background: url('../images/index-pick-up.gif');}
+#index-unrsing h3{background: url('../images/index-unrsing.gif');}
+
+.index-box ul li{width: 150px;height: 330px;float: left;margin: 0px 5px;}
+.index-box ul li .newprice{
+    display: block;
+    font-size: 12px;
+    position: relative;
+    text-align: left;
+}
+.index-box ul li p a{color: #555;font-size: 10px;line-height: 16px;}
+.index-box ul li span{color: #d20000;font-size: 10px;}
+.index-box ul li.first{margin-left: 0px}
+.index-box ul li.last{margin-right: 0px}
+
+#index-hot ul li{width: 188px;height: 380px;float: left;margin: 0px 6px;}
+#index-hot ul li a img{border: 1px solid #d9d9d9;padding: 1px}
+#index-hot ul li.first{margin-left: 0px}
+#index-hot ul li.last{margin-right: 0px}
+
+.order-process{margin: 10px auto}
+
+#footer{background: url('../images/foot-shop-info.gif') left top no-repeat;padding-top: 35px;color: #66665e;padding-bottom: 15px;}
+#footer dl{width: 328px; float: left;margin: 0px 3px 0px 4px; }
+#footer dl.first{margin-left: 0px}
+#footer dl.last{margin-right: 0px;}
+#footer dl dt{padding-top: 45px; background-position: left top; background-repeat: no-repeat}
+#footer dl dd{padding: 0px 6px;}
+#contact{background: url('../images/foot-contact.gif');}
+#change-goods{background: url('../images/foot-change.gif');}
+#trade-time{background: url('../images/foot-trade-time.gif');}
+#trade-addr{background: url('../images/foot-trade-addr.gif');}
+#trade-bank{background: url('../images/foot-bank.gif');}
+#trade-persion{background: url('../images/foot-trade-persion.gif');}
+#trade-wish{background: url('../images/foot-trade-wish.gif');}
+#footer table.calendar {padding: 0;margin: 10px auto;width:280px;}
+.align-center{text-align: center}
